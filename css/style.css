@@ -1,0 +1,211 @@
+body{
+    background: #ccc;
+    overflow-x: hidden;  
+    height: 100%;
+}
+
+.name{
+    text-align: center;
+    font-size: 3rem;
+    font-family: Arial, Helvetica, sans-serif;    
+}
+
+
+.add-item-line{
+    background: rgb(146, 197, 188);
+    position: relative;
+    width: 100%;
+    height: 60px;
+    top: 50px;
+}
+
+#enter-sign{
+    position: absolute;
+    top: 20px;
+    left: 270px;
+    display: inline;
+    font-size: 27px;
+}
+
+.add-item-input{
+    position: relative;
+    left: 35%;
+    top: 22px;
+    margin: 5px;
+}
+
+#description{
+    height: 30px;
+    width: 250px;
+    font-size: 20px;
+}
+
+#qty{
+    position: relative;
+    height: 35px;
+    width: 40px;
+    bottom: 150px;
+    font-size: 20px;
+}
+
+#add-item-btn:hover{
+    background: rgb(109, 211, 143);
+    color: rgb(255, 255, 255);
+}
+
+.container{
+    background: rgb(197, 218, 214);
+    position: absolute;
+    top: 200px;
+    height: 100%;
+    width: 50%;
+}
+
+.container2{
+    background: rgb(197, 218, 214);
+    position: absolute;
+    height: 100%;
+    width: 50%;
+    left: 768px;
+    top: 200px;  
+}
+
+.list-group-name{
+    position: relative;
+    background: rgb(146, 197, 188);
+    list-style: none;
+    top: 10px;
+    left: 170px;
+    width: 400px;
+    padding: 10px;
+    border: 2px solid #ccc; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    border-radius: 10px;
+    animation: appear .5s ease-in;
+}
+
+@keyframes appear {
+    0% {
+        left: -300px; 
+    }
+    100% {
+        left: 170px;
+    }
+}
+
+.transform{
+    position: relative;
+    background: rgb(146, 197, 188);
+    list-style: none;
+    top: 10px;
+    left: 170px;
+    width: 400px;
+    padding: 10px;
+    border: 2px solid #ccc; 
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+    border-radius: 10px;
+    animation: dis .5s ease-in;
+}
+
+@keyframes dis {
+    100% {
+        left: -300px; 
+    }
+    0% {
+        left: 170px;
+    }
+}
+
+.fast-search{
+    position: relative;
+    list-style: none;
+    list-style: none;
+    left: 100px;
+    top: 10px;
+    width: 350px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 23px;
+}
+
+.fast-search li{
+    padding: 10px;
+    border: 2px solid #ccc; 
+    border-radius: 10px;
+    background: rgb(146, 197, 188);
+
+}
+   
+.box-qty{
+    display: inline;
+    position:absolute;
+    background-color: rgb(115, 218, 102);
+    height: 25px;
+    width: 25px;
+    left: 270px;
+    text-align: center;
+    bottom: 10px;
+    justify-content: center;
+    border: 2px solid rgba(221, 220, 220, 0.884); 
+}
+
+.delete-item-btn{
+    position:absolute;
+    left:310px;
+    bottom:12px;
+    height: 25px; 
+    background: red;
+}
+
+.btn-danger{
+    position:absolute;
+    left:340px;
+    bottom:8px;
+}
+
+ul div{
+    display: flex;
+}
+
+ul div li{
+    width: 320px;
+}
+
+ul.add-btn-plus{
+    font-size: 21px;
+    bottom: 100px; 
+}
+
+#fast-add{
+    font-size: 20px;
+    margin: 2px;
+}
+
+#fast-add:hover{
+    background: rgb(109, 211, 143);
+    color: rgb(255, 255, 255);
+}
+
+.select-qty-btn{
+    position: absolute;
+    height: 38px;
+    width: 40px;
+    bottom: 8px;
+    left:280px;
+    font-size: 20px;
+    background-color: rgb(115, 218, 102);
+    border: 2px solid rgba(221, 220, 220, 0.884); 
+}
+
+.btn-md{
+    position: relative;
+    top: -20px;
+    left: 860px;
+}
+
+.well-lg{
+    position: relative;
+    top: 30px;
+    background: rgb(197, 218, 214);
+}

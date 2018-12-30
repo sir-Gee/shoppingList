@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta http-equiv="content-type" content="text/html;charset=utf-8" />
+    <title>Document</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+    <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    </head>
+<body>
+    <header class="name">SHOPPING LIST</header>
+    <div class="well well-lg">
+        <div id="enter-sign">Enter your item name:</div>
+        <input type="text" class="add-item-input" id="description">
+        <select name="quantity" class="add-item-input" id="qty">
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+        </select>
+
+        <div><button type="button" class="btn btn-success btn-md" id="add-item-btn">Add item</button></div>
+    </div>
+        <!-- <button class="add-item-input" id="add-item-btn">ADD</button> -->
+    <div class="container" id='items'></div>
+    <div class="container2" id="fast-add-cont">
+        <ul class="fast-search" id="fast-search">
+            <div class="button-wrap">
+                <button class="btn btn-success" id="fast-add">+</button>
+                <!-- <button class="add-btn-plus" id="fast-add">+</button> -->
+                <li id="fast-li">White Bread (piece)</li>
+            </div>
+            <div class="button-wrap">
+                <button class="btn btn-success" id="fast-add">+</button>
+                <!-- <button class="add-btn-plus" id="fast-add">+</button> -->
+                <li id="fast-li">Whole Milk (gallon)</li>
+            </div>
+            <div class="button-wrap">
+                <button class="btn btn-success" id="fast-add">+</button>
+                <!-- <button class="add-btn-plus" id="fast-add">+</button> -->
+                <li id="fast-li">Soda</li>
+            </div>
+            <div class="button-wrap">
+                <button class="btn btn-success" id="fast-add">+</button>
+                <!-- <button class="add-btn-plus" id="fast-add">+</button> -->
+                <li id="fast-li">Still Water (gallon)</li>            
+            </div>
+            <div class="button-wrap">
+                <button class="btn btn-success" id="fast-add">+</button>
+                <!-- <button class="add-btn-plus" id="fast-add">+</button> -->
+                <li id="fast-li">Ground Chicken (lb)</li>            
+            </div>
+            <div class="button-wrap">
+                <button class="btn btn-success" id="fast-add">+</button>
+                <!-- <button class="add-btn-plus" id="fast-add">+</button> -->
+                <li id="fast-li">Beef (lb)</li>            
+            </div>
+            <div class="button-wrap">
+                <button class="btn btn-success" id="fast-add">+</button>
+                <!-- <button class="add-btn-plus" id="fast-add">+</button> -->
+                <li id="fast-li">Pasta (pack)</li>            
+            </div>
+            <div class="button-wrap">
+                <button class="btn btn-success" id="fast-add">+</button>                
+                <!-- <button class="add-btn-plus" id="fast-add">+</button> -->
+                <li id="fast-li">Green Apples (lb)</li>
+            </div>
+            <div class="button-wrap">
+                <button class="btn btn-success" id="fast-add">+</button>                
+                <!-- <button class="add-btn-plus" id="fast-add">+</button> -->
+                <li id="fast-li">Tangerine (lb)</li>            
+            </div>
+        </ul>
+    </div>
+
+
+    <script src="/js/app.js"></script>
+</body>
+</html>
